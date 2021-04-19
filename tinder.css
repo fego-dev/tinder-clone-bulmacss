@@ -1,10 +1,26 @@
+#fill{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color:rgba(0,0,0,.4) ;
+}
 #banner{
   background-image: url("assets/images/banner.jpg");
-  min-height: 550px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 50%;
+}
+
+#navbar {
+  background: transparent;
+}
+
+#login-btn:hover{
+  background-image: linear-gradient(to right, #fd297b,#ff5864, #ff655b);
 }
 * {
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
